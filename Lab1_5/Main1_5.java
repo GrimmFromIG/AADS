@@ -41,7 +41,7 @@ public class Main1_5 {
         
         // Студенти 4 курсу (цільові для пошуку та видалення)
         students[11] = new Student1_5("Савченко", 4, "Чоловік", true);  // Ціль!
-        students[12] = new Student1_5("Козак", 4, "Чоловік", false);
+        students[12] = new Student1_5("Козак", 4, "Чоловік", true);
         students[13] = new Student1_5("Гриценко", 4, "Жінка", true);
         students[14] = new Student1_5("Романенко", 4, "Чоловік", true); // Ціль!
         students[15] = new Student1_5("Павленко", 4, "Жінка", false);
