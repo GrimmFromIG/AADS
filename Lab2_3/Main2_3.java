@@ -1,7 +1,7 @@
 package Lab2_3; 
 public class Main2_3 {
     
-    // Метод для обчислення факторіала (використовуємо long, оскільки 12! велике число)
+    // Метод для обчислення факторіала 
     public static long factorial(int n) {
         if (n <= 1) return 1;
         long result = 1;

@@ -10,7 +10,7 @@ public class Main2_2 {
         
         // 1. Створення тестового файлу програмно (для зручності)
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-            writer.println("+123A^K&");   // Правильне
+            writer.println("+133A^K&");   // Правильне
             writer.println("+9B&");       // Правильне
             writer.println("-123A&");     // Неправильне (починається з -)
             writer.println("+123Z&");     // Неправильне (Z не входить у A-K)

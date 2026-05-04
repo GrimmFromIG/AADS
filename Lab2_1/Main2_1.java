@@ -15,7 +15,7 @@ public class Main2_1 {
         double a = scanner.nextDouble();
         System.out.print("Введіть кінець інтервалу b (за варіантом 1): ");
         double b = scanner.nextDouble();
-        System.out.print("Введіть крок h (за варіантом 0.1): ");
+        System.out.print("Введіть крок h (за варіантом 0,1): ");
         double h = scanner.nextDouble();
         
         int n = (int) Math.round((b - a) / h);
