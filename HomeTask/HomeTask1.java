@@ -54,7 +54,7 @@ public class HomeTask1 {
         for (int i = 0; i < n; i++) Pb[i] = b[P[i]];
 
         double[] y = new double[n];
-        for (int i = 0; i < i; i++) {
+        for (int i = 0; i < n; i++) {
             double sum = 0;
             for (int j = 0; j < i; j++) sum += LU[i][j] * y[j];
             y[i] = Pb[i] - sum;
